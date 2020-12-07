@@ -1,3 +1,6 @@
+Project URL: https://atul-acharya-17.github.io/Sorting-Visualizer/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
