@@ -1,0 +1,15 @@
+.array-container {
+    position: absolute;
+    top: 20%;
+    bottom: 1%;
+    left: 10%;
+    right: 10%;
+    margin-top: 5%;
+}
+
+.array-bar {
+    width: 2px;
+    display: inline-block;
+    margin: 0 1px;
+    background-color: darkgoldenrod;
+}
