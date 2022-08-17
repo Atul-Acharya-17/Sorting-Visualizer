@@ -1,6 +1,6 @@
 const firstColor = "red";
 
-const secondColor = "darkgoldenrod";
+const secondColor = "#f2aa4cff";
 
 export function heapSort(array) {
     let animations = []

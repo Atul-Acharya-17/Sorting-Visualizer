@@ -1,8 +1,6 @@
 .nav-bar {
     height: '300px';
-    background-color: black;
-    border-color: darkred;
-    border-style: dotted;
+    background-color: #101820ff;
     margin-top: 1px;
     border-width: 5px;
 }

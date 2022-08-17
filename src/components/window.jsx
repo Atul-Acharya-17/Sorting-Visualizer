@@ -11,7 +11,7 @@ import { bucketSort } from '../algorithms/bucketSort';
 
 const firstColor = "red";
 
-const secondColor = "darkgoldenrod";
+const secondColor = "#f2aa4cff";
 
 class Window extends Component {
     state = { 
@@ -41,14 +41,23 @@ class Window extends Component {
     }
 
     handleReset = () => {
-        const array = [];
+        let array = [];
         console.log("Reset");
-        const min = 10;
-        const max = 400;
         for (let i = 0; i < 250; ++i){
-            array.push(Math.floor(Math.random() * (max - min + 1) + min));
+            array.push(i*1.5);
         }
+        array = this.shuffleArray(array);
         this.setState({array});
+    }
+
+    shuffleArray = (array) => {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array;
     }
 
     handleBubble = () => {
